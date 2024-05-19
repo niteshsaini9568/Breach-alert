@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/breach-alert-users');
+    await mongoose.connect('mongodb+srv://Nitesh:Nitesh%40123@cluster0.6tifeca.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 }
 
 main()

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Breach alert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/new_index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+    <section class="hero" id="hero">
+        <nav>
+            <span><a href="/">
+                <img src="assets/Logo (1).png">
+                <h1>Breach alert</h1></a>
+            </span>
+            <ul>
+                <a href="#protection" class="about">
+                    <li>About</li>
+                </a>
+                <a href="/resume">
+                    <li>Resume</li>
+                </a>
+                <a href="#" class="portfolio">
+                    <li>Portfolio</li>
+                </a>
+            </ul>
+        </nav>
+            <section class="content">
+                <div>
+                    <h1>Empowering Your <br> Data Security</h1>
+                    <p>At Breach Alert, we're dedicated to safeguarding your digital presence.
+                        <br> With our innovative web application, we put
+                        the power back into your hands.</p>
+                        <a href="#email">Lets go</a>
+                        <a href="#about-me" class="btn" >About me</a>
+                </div>
+                <img src="assets/image 1.svg" class="hero_img">
+            </section>
+    </section>
+    <section class="email" id="email">
+        <main>
+            <div class="email">
+                <span><i class="fas fa-shield-alt"></i>Breach Alert</span>
+                <h1>Check if your data has been compromised in a data breach.</h1>
+                <p>Stay informed and protect your online presence with Breach Alert. Our platform provides<br> real-time insights into
+                    potential data breaches,empowering you to take proactive measures to <br> safeguard your personal information.</p>
+                <form action="/email" method="POST">
+                    <input type="email" placeholder="Enter your email" required name="email">
+                    <input type="text" placeholder="Enter your name" required name="name">
+                    <button type="submit">Check Now</button>
+                </form>
+            </div>
+        </main>
+    </section>
+    <section class="protection" id="protection">
+        <div class="tech">
+            <span><i class="fas fa-info-circle"></i>Project discription</span>
+            <h1>About the Project</h1>
+            <p>The Breach Alert project is a web application that allows users to check if their personal data has been compromised in
+            a data breach. It utilizes the RapidAPI Data Breach Checker API to fetch and display relevant information about any
+            potential breaches.</p>
+        </div>
+        <div class="tech-stack">
+            <div class="tech-stack-grid">
+                <div class="tech-item">
+                    <i class="fab fa-node-js" style="color: #400297;"></i>
+                    <h3>Node.js</h3>
+                    <p>JavaScript runtime environment for server-side applications.</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database" style="color: #400297;"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL database for storing user information.</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-file-code" style="color: #400297;"></i>
+                    <h3>EJS</h3>
+                    <p>Embedded JavaScript templating engine for generating HTML.</p>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-globe" style="color: #400297;"></i>
+                    <h3>RapidAPI</h3>
+                    <p>Cloud-based API platform for integrating third-party services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="workflow">
+        <div class="workflow-head">
+            <span><i class="fas fa-project-diagram"></i> Workflow</span>
+            <h1> Seamlessly Navigate Data Security</h1>
+            <p>Our workflow seamlessly guides you through the process of ensuring your data security:</p>
+        </div>
+        <div class="workflow-content">
+            <div>
+                <ol>
+                    <li>
+                        <h3><i class="fas fa-user"></i> User Input</h3>
+                        <p>The user enters their email address and name on the website.</p>
+                    </li>
+                    <li>
+                        <h3><i class="fas fa-server"></i> Server Processing</h3>
+                        <p>The server receives the user input and sends a request to the RapidAPI Data Breach Checker API
+                            with the provided email address.</p>
+                    </li>
+                    <li>
+                        <h3><i class="fas fa-download"></i> API Response</h3>
+                        <p>The API responds with relevant data breach information, if any, associated with the user's email
+                            address.</p>
+                    </li>
+                    <li>
+                        <h3 style="display: flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 100 100" style="margin-right: 5px;">
+                            <path fill="##160637"
+                                d="M27.953 46.506a21.02 21.02 0 0 1-2.117-9.192c0-1.743.252-3.534.768-5.468c.231-.87.521-1.702.847-2.509c-1.251-.683-2.626-1.103-4.101-1.103c-5.47 0-9.898 5.153-9.898 11.517c0 4.452 2.176 8.305 5.354 10.222L5.391 56.217c-.836.393-1.387 1.337-1.387 2.392v10.588c0 1.419.991 2.569 2.21 2.569h7.929v-11.11c0-3.237 1.802-6.172 4.599-7.481l10.262-4.779a20.2 20.2 0 0 1-1.051-1.89m32.184-11.705h34.092V34.8l.006.001c.973 0 1.761-.789 1.761-1.761v-6.431c0-.973-.789-1.761-1.761-1.761l-.006.001v-.005H56.133a20.013 20.013 0 0 1 3.526 7.435c.215.889.371 1.72.478 2.522m35.859 31.635c0-.973-.789-1.761-1.761-1.761l-.006.001v-.005H72.007v9.089c0 .293-.016.582-.045.867h22.267v-.001l.006.001c.973 0 1.761-.789 1.761-1.761zm-1.761-21.674l-.006.001v-.005H58.944c-.159.419-.327.836-.514 1.249a20.258 20.258 0 0 1-1.224 2.297l10.288 4.908a7.67 7.67 0 0 1 2.078 1.503h24.657v-.001l.006.001c.973 0 1.761-.789 1.761-1.761v-6.431c0-.973-.789-1.761-1.761-1.761" />
+                            <path fill="##160637"
+                                d="m65.323 57.702l-11.551-5.51l-4.885-2.33c2.134-1.344 3.866-3.418 5-5.917a16.045 16.045 0 0 0 1.435-6.631c0-1.348-.213-2.627-.512-3.863c-1.453-5.983-6.126-10.392-11.736-10.392c-5.504 0-10.106 4.251-11.648 10.065c-.356 1.333-.602 2.72-.602 4.189c0 2.552.596 4.93 1.609 7c1.171 2.4 2.906 4.379 5.018 5.651l-4.678 2.178l-11.926 5.554c-1.037.485-1.717 1.654-1.717 2.959V73.76c0 1.756 1.224 3.181 2.735 3.181h42.417c1.511 0 2.735-1.424 2.735-3.181V60.656c.002-1.301-.668-2.458-1.694-2.954" />
+                        </svg>Results Display</h3>
+                        <p>The server renders a new page displaying the data breach results, including a warning message or
+                            congratulatory message based on the API response.</p>
+                    </li>
+                    <li>
+                        <h3><i class="fas fa-shield-alt"></i> Protection Tips</h3>
+                        <p>The results page also provides tips and best practices for protecting personal data from
+                            potential breaches.</p>
+                    </li>
+                </ol>
+            </div>
+            <img src="assets/image 6.svg" class="hero_img">
+        </div>
+    </section>
+    <section class="about_me" id="about-me">
+        <h3>"As a passionate computer science student with a strong background in web development, I created Breach Alert to help
+        individuals safeguard their online presence and protect their personal information from<br> potential data breaches."</h3>
+        <img src="assets/myphoto.jpeg">
+        <p>Coder</p>
+        <p>Full stack web developer</p>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Breach Alert. All rights reserved.</p>
+            <ul>
+                <li><a href="#hero"><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24">
+                    <path fill="#b3b3b3"
+                        d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1" />
+                </svg></a></li>
+                <li><a href="/resume"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#b3b3b3"
+                        d="M13 9h5.5L13 3.5zM6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2m8 18v-1c0-1.33-2.67-2-4-2s-4 .67-4 2v1zm-4-8a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+                </svg></a></li>
+                <li><a href="https://github.com/niteshsaini9568"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#b3b3b3"
+                        d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2" />
+                </svg></a></li>
+                <li><a href="https://www.linkedin.com/in/nitesh-saini-b936b1257/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#b3b3b3"
+                        d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z" />
+                </svg></a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>

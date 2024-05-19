@@ -1,0 +1,18 @@
+{
+  "name": "breach-alert",
+  "version": "1.0.0",
+  "description": "This is the applicatio through which you can detect whether your data is leaked or not via email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
+  }
+}

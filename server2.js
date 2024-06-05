@@ -51,7 +51,6 @@ app.post("/email", async(req, res) => {
     let response = async () => {
         try {
             await fetch(url, options).then(res => res.json()).then(apiData => {
-                console.log(apiData);
                 res.render('breach display', { apiData });
             }).catch(err => console.error(err));
 
